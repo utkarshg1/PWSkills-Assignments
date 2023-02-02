@@ -17,3 +17,6 @@ PWSkills Data Science Masters assignment - Utkarsh Gaikwad
 2. git commit -m "message"
 3. git status
 4. git push origin main
+
+# Activating Virtual Environment command
+.\venv\Scripts\activate.bat
