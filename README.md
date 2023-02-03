@@ -20,3 +20,5 @@ PWSkills Data Science Masters assignment - Utkarsh Gaikwad
 
 # Activating Virtual Environment command
 .\venv\Scripts\activate.bat
+or
+ctrl + shift + p and give python interpreter path and start new terminal
