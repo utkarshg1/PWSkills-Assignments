@@ -128,3 +128,9 @@ validatePAN: Last Character of PAN must be a Alphabet
 2023-02-13 12:22:45,688 - root - INFO - Validate pan function started
 2023-02-13 12:22:45,689 - root - INFO - PAN Card number is Valid
 2023-02-13 12:22:45,689 - root - INFO - Try Block executed
+2023-02-13 14:50:10,132 - root - INFO - Question 5 , case 1 started
+2023-02-13 14:50:10,141 - root - INFO - No Error occured
+2023-02-13 14:52:57,014 - root - INFO - Question 5 , case 2 started
+2023-02-13 14:52:57,018 - root - ERROR - Percentage not in range
+2023-02-13 14:53:25,190 - root - INFO - Question 5 , case 3 started
+2023-02-13 14:53:25,190 - root - ERROR - Percentage not in range
