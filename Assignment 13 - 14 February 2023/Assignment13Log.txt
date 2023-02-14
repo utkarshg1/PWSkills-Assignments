@@ -1,0 +1,84 @@
+2023-02-15 01:29:35,564 - root - INFO - [<Thread(Thread-3 (file_download), initial)>, <Thread(Thread-4 (file_download), initial)>, <Thread(Thread-5 (file_download), initial)>]
+2023-02-15 01:29:35,640 - root - INFO - This is start of Multithreading
+2023-02-15 01:29:35,640 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,642 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,643 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,643 - root - INFO - All Data Downloaded Successfully
+2023-02-15 01:29:35,644 - root - INFO - This is end of Multithreading
+2023-02-15 01:29:35,734 - root - INFO - This is start of normal looping method
+2023-02-15 01:29:35,734 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,769 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2010%20-%20%2010%20February%202023/students.txt download successfully and saved as data3.txt
+2023-02-15 01:29:35,771 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,773 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2011%20-%2012%20February%202023/TryExceptLog.txt download successfully and saved as data2.txt
+2023-02-15 01:29:35,773 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,781 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2012%20-%2013%20February%202023/Assignment12Log.txt download successfully and saved as data1.txt
+2023-02-15 01:29:35,781 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,781 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,800 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2012%20-%2013%20February%202023/Assignment12Log.txt download successfully and saved as data1.txt
+2023-02-15 01:29:35,800 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,822 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2011%20-%2012%20February%202023/TryExceptLog.txt download successfully and saved as data2.txt
+2023-02-15 01:29:35,822 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,822 - root - INFO - This is start of file_download function
+2023-02-15 01:29:35,981 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2010%20-%20%2010%20February%202023/students.txt download successfully and saved as data3.txt
+2023-02-15 01:29:35,981 - root - INFO - This is end of file_download function
+2023-02-15 01:29:35,981 - root - INFO - All Files Download successfully
+2023-02-15 01:29:35,981 - root - INFO - This is end of normal looping method
+2023-02-15 01:46:36,376 - root - INFO - currently active threads are : 6
+2023-02-15 01:46:44,412 - root - INFO - Currently active threads are : 6
+2023-02-15 01:50:37,252 - root - INFO - Number of thread objects in caller's threads control : <_MainThread(MainThread, started 13228)>
+2023-02-15 01:53:13,654 - root - INFO - Current thread is : <_MainThread(MainThread, started 13228)>
+2023-02-15 01:55:17,612 - root - INFO - List of all active threads is : [<_MainThread(MainThread, started 13228)>, <Thread(IOPub, started daemon 19272)>, <Heartbeat(Heartbeat, started daemon 11364)>, <ControlThread(Control, started daemon 19848)>, <HistorySavingThread(IPythonHistorySavingThread, started 9360)>, <ParentPollerWindows(Thread-2, started daemon 14084)>]
+2023-02-15 02:05:43,301 - root - INFO - run() Command executed
+2023-02-15 02:14:46,642 - root - INFO - Counter Value : 0
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 1
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 2
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 3
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 4
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 5
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 6
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 7
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 8
+2023-02-15 02:14:46,644 - root - INFO - Counter Value : 9
+2023-02-15 02:14:47,651 - root - INFO - Thread Finished
+2023-02-15 02:21:29,826 - root - INFO - thread 2 is alive : <bound method Thread.is_alive of <Thread(Thread-7 (counter_function), stopped 21556)>>
+2023-02-15 02:22:00,620 - root - INFO - thread 2 is alive : False
+2023-02-15 02:37:36,315 - root - INFO - Square of 1 is 1
+2023-02-15 02:37:36,315 - root - INFO - Square of 2 is 4
+2023-02-15 02:37:36,315 - root - INFO - Square of 3 is 9
+2023-02-15 02:37:36,315 - root - INFO - Square of 4 is 16
+2023-02-15 02:37:36,315 - root - INFO - Square of 5 is 25
+2023-02-15 02:37:36,323 - root - INFO - Square of 6 is 36
+2023-02-15 02:37:36,323 - root - INFO - Square of 7 is 49
+2023-02-15 02:37:36,323 - root - INFO - Square of 8 is 64
+2023-02-15 02:37:36,323 - root - INFO - Square of 9 is 81
+2023-02-15 02:37:36,323 - root - INFO - Square of 10 is 100
+2023-02-15 02:37:36,347 - root - INFO - Cube of 7 is : 343
+2023-02-15 02:37:36,347 - root - INFO - Cube of 8 is : 512
+2023-02-15 02:37:36,347 - root - INFO - Cube of 9 is : 729
+2023-02-15 02:37:36,347 - root - INFO - Cube of 10 is : 1000
+2023-02-15 02:37:36,347 - root - INFO - Cube of 11 is : 1331
+2023-02-15 02:37:36,347 - root - INFO - Cube of 12 is : 1728
+2023-02-15 02:37:36,347 - root - INFO - Cube of 13 is : 2197
+2023-02-15 02:37:36,347 - root - INFO - Cube of 14 is : 2744
+2023-02-15 02:37:36,347 - root - INFO - Cube of 15 is : 3375
+2023-02-15 02:37:36,347 - root - INFO - Cube of 16 is : 4096
+2023-02-15 02:37:57,127 - root - INFO - Square of 1 is : 1
+2023-02-15 02:37:57,127 - root - INFO - Cube of 7 is : 343
+2023-02-15 02:37:57,127 - root - INFO - Square of 2 is : 4
+2023-02-15 02:37:57,128 - root - INFO - Cube of 8 is : 512
+2023-02-15 02:37:57,128 - root - INFO - Square of 3 is : 9
+2023-02-15 02:37:57,128 - root - INFO - Cube of 9 is : 729
+2023-02-15 02:37:57,128 - root - INFO - Square of 4 is : 16
+2023-02-15 02:37:57,128 - root - INFO - Cube of 10 is : 1000
+2023-02-15 02:37:57,128 - root - INFO - Square of 5 is : 25
+2023-02-15 02:37:57,128 - root - INFO - Cube of 11 is : 1331
+2023-02-15 02:37:57,128 - root - INFO - Square of 6 is : 36
+2023-02-15 02:37:57,128 - root - INFO - Cube of 12 is : 1728
+2023-02-15 02:37:57,128 - root - INFO - Square of 7 is : 49
+2023-02-15 02:37:57,128 - root - INFO - Cube of 13 is : 2197
+2023-02-15 02:37:57,128 - root - INFO - Square of 8 is : 64
+2023-02-15 02:37:57,128 - root - INFO - Cube of 14 is : 2744
+2023-02-15 02:37:57,130 - root - INFO - Square of 9 is : 81
+2023-02-15 02:37:57,130 - root - INFO - Cube of 15 is : 3375
+2023-02-15 02:37:57,130 - root - INFO - Square of 10 is : 100
+2023-02-15 02:37:57,130 - root - INFO - Cube of 16 is : 4096

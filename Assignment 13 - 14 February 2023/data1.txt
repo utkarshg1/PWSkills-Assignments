@@ -1,0 +1,916 @@
+2023-02-13 22:14:03,916 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:14:03,916 - root - INFO - Transaction is valid with amount : 500
+2023-02-13 22:14:03,916 - root - INFO - Try Block executed
+2023-02-13 22:14:29,357 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:14:29,359 - root - INFO - Transaction is valid with amount : 1000
+2023-02-13 22:14:29,359 - root - INFO - Try Block executed
+2023-02-13 22:14:45,781 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:14:45,784 - root - ERROR - Exception Occured Transaction amount Exceeded the limit
+NoneType: None
+2023-02-13 22:14:45,785 - root - INFO - Transaction of Amount : 2000 Exceeded the limit 1000
+2023-02-13 22:14:45,789 - root - ERROR - Transaction Limit Exceeded , Exception : Transaction limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_3836\1560911046.py", line 12, in process_transaction
+    raise TransactionLimitExceeded("Transaction limit exceeded", amount, limit)
+TransactionLimitExceeded: Transaction limit exceeded
+2023-02-13 22:15:50,255 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:15:50,255 - root - INFO - Transaction is valid with amount : 500
+2023-02-13 22:15:50,256 - root - INFO - Try Block executed
+2023-02-13 22:15:52,675 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:15:52,675 - root - INFO - Transaction is valid with amount : 1000
+2023-02-13 22:15:52,676 - root - INFO - Try Block executed
+2023-02-13 22:15:53,815 - root - INFO - This is starting of process_transaction definition.
+2023-02-13 22:15:53,815 - root - ERROR - Exception Occured Transaction amount Exceeded the limit
+2023-02-13 22:15:53,815 - root - INFO - Transaction of Amount : 2000 Exceeded the limit 1000
+2023-02-13 22:15:53,815 - root - ERROR - Transaction Limit Exceeded , Exception : Transaction limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_3836\714291067.py", line 12, in process_transaction
+    raise TransactionLimitExceeded("Transaction limit exceeded", amount, limit)
+TransactionLimitExceeded: Transaction limit exceeded
+2023-02-13 22:25:19,659 - root - INFO - Exception
+2023-02-13 22:25:19,659 - root - INFO -  TypeError
+2023-02-13 22:25:19,661 - root - INFO -   FloatOperation
+2023-02-13 22:25:19,661 - root - INFO - Subclass: <class 'decimal.FloatOperation'>,level:1
+2023-02-13 22:25:19,661 - root - INFO -   MultipartConversionError
+2023-02-13 22:25:19,661 - root - INFO - Subclass: <class 'email.errors.MultipartConversionError'>,level:1
+2023-02-13 22:25:19,661 - root - INFO - Subclass: <class 'TypeError'>,level:0
+2023-02-13 22:25:19,661 - root - INFO -  StopAsyncIteration
+2023-02-13 22:25:19,661 - root - INFO - Subclass: <class 'StopAsyncIteration'>,level:0
+2023-02-13 22:25:19,661 - root - INFO -  StopIteration
+2023-02-13 22:25:19,661 - root - INFO - Subclass: <class 'StopIteration'>,level:0
+2023-02-13 22:25:19,661 - root - INFO -  ImportError
+2023-02-13 22:25:19,661 - root - INFO -   ModuleNotFoundError
+2023-02-13 22:25:19,661 - root - INFO -    PackageNotFoundError
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'importlib.metadata.PackageNotFoundError'>,level:2
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'ModuleNotFoundError'>,level:1
+2023-02-13 22:25:19,662 - root - INFO -   ZipImportError
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'zipimport.ZipImportError'>,level:1
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'ImportError'>,level:0
+2023-02-13 22:25:19,662 - root - INFO -  OSError
+2023-02-13 22:25:19,662 - root - INFO -   ConnectionError
+2023-02-13 22:25:19,662 - root - INFO -    BrokenPipeError
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'BrokenPipeError'>,level:2
+2023-02-13 22:25:19,662 - root - INFO -    ConnectionAbortedError
+2023-02-13 22:25:19,662 - root - INFO - Subclass: <class 'ConnectionAbortedError'>,level:2
+2023-02-13 22:25:19,662 - root - INFO -    ConnectionRefusedError
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'ConnectionRefusedError'>,level:2
+2023-02-13 22:25:19,663 - root - INFO -    ConnectionResetError
+2023-02-13 22:25:19,663 - root - INFO -     RemoteDisconnected
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'http.client.RemoteDisconnected'>,level:3
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'ConnectionResetError'>,level:2
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'ConnectionError'>,level:1
+2023-02-13 22:25:19,663 - root - INFO -   BlockingIOError
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'BlockingIOError'>,level:1
+2023-02-13 22:25:19,663 - root - INFO -   ChildProcessError
+2023-02-13 22:25:19,663 - root - INFO - Subclass: <class 'ChildProcessError'>,level:1
+2023-02-13 22:25:19,664 - root - INFO -   FileExistsError
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'FileExistsError'>,level:1
+2023-02-13 22:25:19,664 - root - INFO -   FileNotFoundError
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'FileNotFoundError'>,level:1
+2023-02-13 22:25:19,664 - root - INFO -   IsADirectoryError
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'IsADirectoryError'>,level:1
+2023-02-13 22:25:19,664 - root - INFO -   NotADirectoryError
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'NotADirectoryError'>,level:1
+2023-02-13 22:25:19,664 - root - INFO -   InterruptedError
+2023-02-13 22:25:19,664 - root - INFO -    InterruptedSystemCall
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'zmq.error.InterruptedSystemCall'>,level:2
+2023-02-13 22:25:19,664 - root - INFO - Subclass: <class 'InterruptedError'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   PermissionError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'PermissionError'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   ProcessLookupError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'ProcessLookupError'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   TimeoutError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'TimeoutError'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   UnsupportedOperation
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'io.UnsupportedOperation'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   herror
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'socket.herror'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   gaierror
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'socket.gaierror'>,level:1
+2023-02-13 22:25:19,665 - root - INFO -   SSLError
+2023-02-13 22:25:19,665 - root - INFO -    SSLCertVerificationError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'ssl.SSLCertVerificationError'>,level:2
+2023-02-13 22:25:19,665 - root - INFO -    SSLZeroReturnError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'ssl.SSLZeroReturnError'>,level:2
+2023-02-13 22:25:19,665 - root - INFO -    SSLWantWriteError
+2023-02-13 22:25:19,665 - root - INFO - Subclass: <class 'ssl.SSLWantWriteError'>,level:2
+2023-02-13 22:25:19,665 - root - INFO -    SSLWantReadError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'ssl.SSLWantReadError'>,level:2
+2023-02-13 22:25:19,667 - root - INFO -    SSLSyscallError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'ssl.SSLSyscallError'>,level:2
+2023-02-13 22:25:19,667 - root - INFO -    SSLEOFError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'ssl.SSLEOFError'>,level:2
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'ssl.SSLError'>,level:1
+2023-02-13 22:25:19,667 - root - INFO -   Error
+2023-02-13 22:25:19,667 - root - INFO -    SameFileError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'shutil.SameFileError'>,level:2
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'shutil.Error'>,level:1
+2023-02-13 22:25:19,667 - root - INFO -   SpecialFileError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'shutil.SpecialFileError'>,level:1
+2023-02-13 22:25:19,667 - root - INFO -   ExecError
+2023-02-13 22:25:19,667 - root - INFO - Subclass: <class 'shutil.ExecError'>,level:1
+2023-02-13 22:25:19,667 - root - INFO -   ReadError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'shutil.ReadError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   URLError
+2023-02-13 22:25:19,669 - root - INFO -    HTTPError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'urllib.error.HTTPError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO -    ContentTooShortError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'urllib.error.ContentTooShortError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'urllib.error.URLError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   BadGzipFile
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'gzip.BadGzipFile'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'OSError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  EOFError
+2023-02-13 22:25:19,669 - root - INFO -   IncompleteReadError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'asyncio.exceptions.IncompleteReadError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'EOFError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  RuntimeError
+2023-02-13 22:25:19,669 - root - INFO -   RecursionError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'RecursionError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   NotImplementedError
+2023-02-13 22:25:19,669 - root - INFO -    ZMQVersionError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'zmq.error.ZMQVersionError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO -    StdinNotImplementedError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'IPython.core.error.StdinNotImplementedError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'NotImplementedError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   _DeadlockError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class '_frozen_importlib._DeadlockError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   BrokenBarrierError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'threading.BrokenBarrierError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   BrokenExecutor
+2023-02-13 22:25:19,669 - root - INFO -    BrokenThreadPool
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'concurrent.futures.thread.BrokenThreadPool'>,level:2
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'concurrent.futures._base.BrokenExecutor'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   SendfileNotAvailableError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'asyncio.exceptions.SendfileNotAvailableError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   ExtractionError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'pkg_resources.ExtractionError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   VariableError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_vars.VariableError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'RuntimeError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  NameError
+2023-02-13 22:25:19,669 - root - INFO -   UnboundLocalError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'UnboundLocalError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'NameError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  AttributeError
+2023-02-13 22:25:19,669 - root - INFO -   FrozenInstanceError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'dataclasses.FrozenInstanceError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'AttributeError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  SyntaxError
+2023-02-13 22:25:19,669 - root - INFO -   IndentationError
+2023-02-13 22:25:19,669 - root - INFO -    TabError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'TabError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'IndentationError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'SyntaxError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  LookupError
+2023-02-13 22:25:19,669 - root - INFO -   IndexError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'IndexError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   KeyError
+2023-02-13 22:25:19,669 - root - INFO -    NoSuchKernel
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'jupyter_client.kernelspec.NoSuchKernel'>,level:2
+2023-02-13 22:25:19,669 - root - INFO -    UnknownBackend
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'IPython.terminal.pt_inputhooks.UnknownBackend'>,level:2
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'KeyError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO -   CodecRegistryError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'encodings.CodecRegistryError'>,level:1
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'LookupError'>,level:0
+2023-02-13 22:25:19,669 - root - INFO -  ValueError
+2023-02-13 22:25:19,669 - root - INFO -   UnicodeError
+2023-02-13 22:25:19,669 - root - INFO -    UnicodeEncodeError
+2023-02-13 22:25:19,669 - root - INFO - Subclass: <class 'UnicodeEncodeError'>,level:2
+2023-02-13 22:25:19,669 - root - INFO -    UnicodeDecodeError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'UnicodeDecodeError'>,level:2
+2023-02-13 22:25:19,673 - root - INFO -    UnicodeTranslateError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'UnicodeTranslateError'>,level:2
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'UnicodeError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   UnsupportedOperation
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'io.UnsupportedOperation'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   JSONDecodeError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'json.decoder.JSONDecodeError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   SSLCertVerificationError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'ssl.SSLCertVerificationError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   Error
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'binascii.Error'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   UnsupportedDigestmodError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class '_hashlib.UnsupportedDigestmodError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   IllegalMonthError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'calendar.IllegalMonthError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   IllegalWeekdayError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'calendar.IllegalWeekdayError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   ParserError
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'dateutil.parser._parser.ParserError'>,level:1
+2023-02-13 22:25:19,673 - root - INFO -   MessageDefect
+2023-02-13 22:25:19,673 - root - INFO -    NoBoundaryInMultipartDefect
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'email.errors.NoBoundaryInMultipartDefect'>,level:2
+2023-02-13 22:25:19,673 - root - INFO -    StartBoundaryNotFoundDefect
+2023-02-13 22:25:19,673 - root - INFO - Subclass: <class 'email.errors.StartBoundaryNotFoundDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    CloseBoundaryNotFoundDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.CloseBoundaryNotFoundDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    FirstHeaderLineIsContinuationDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.FirstHeaderLineIsContinuationDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    MisplacedEnvelopeHeaderDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.MisplacedEnvelopeHeaderDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    MissingHeaderBodySeparatorDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.MissingHeaderBodySeparatorDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    MultipartInvariantViolationDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.MultipartInvariantViolationDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    InvalidMultipartContentTransferEncodingDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.InvalidMultipartContentTransferEncodingDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    UndecodableBytesDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.UndecodableBytesDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    InvalidBase64PaddingDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.InvalidBase64PaddingDefect'>,level:2
+2023-02-13 22:25:19,675 - root - INFO -    InvalidBase64CharactersDefect
+2023-02-13 22:25:19,675 - root - INFO - Subclass: <class 'email.errors.InvalidBase64CharactersDefect'>,level:2
+2023-02-13 22:25:19,676 - root - INFO -    InvalidBase64LengthDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.InvalidBase64LengthDefect'>,level:2
+2023-02-13 22:25:19,676 - root - INFO -    HeaderDefect
+2023-02-13 22:25:19,676 - root - INFO -     InvalidHeaderDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.InvalidHeaderDefect'>,level:3
+2023-02-13 22:25:19,676 - root - INFO -     HeaderMissingRequiredValue
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.HeaderMissingRequiredValue'>,level:3
+2023-02-13 22:25:19,676 - root - INFO -     NonPrintableDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.NonPrintableDefect'>,level:3
+2023-02-13 22:25:19,676 - root - INFO -     ObsoleteHeaderDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.ObsoleteHeaderDefect'>,level:3
+2023-02-13 22:25:19,676 - root - INFO -     NonASCIILocalPartDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.NonASCIILocalPartDefect'>,level:3
+2023-02-13 22:25:19,676 - root - INFO -     InvalidDateDefect
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.InvalidDateDefect'>,level:3
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.HeaderDefect'>,level:2
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'email.errors.MessageDefect'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   ClassNotFound
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pygments.util.ClassNotFound'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   ClipboardEmpty
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'IPython.lib.clipboard.ClipboardEmpty'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   MacroToEdit
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'IPython.core.magics.code.MacroToEdit'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   InvalidFileException
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'plistlib.InvalidFileException'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   UnequalIterablesError
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pkg_resources._vendor.more_itertools.more.UnequalIterablesError'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   InvalidVersion
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.version.InvalidVersion'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   _InvalidELFFileHeader
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pkg_resources._vendor.packaging._manylinux._ELFFileHeader._InvalidELFFileHeader'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   InvalidWheelFilename
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.utils.InvalidWheelFilename'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   InvalidSdistFilename
+2023-02-13 22:25:19,676 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.utils.InvalidSdistFilename'>,level:1
+2023-02-13 22:25:19,676 - root - INFO -   InvalidSpecifier
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.specifiers.InvalidSpecifier'>,level:1
+2023-02-13 22:25:19,678 - root - INFO -   InvalidMarker
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.markers.InvalidMarker'>,level:1
+2023-02-13 22:25:19,678 - root - INFO -   UndefinedComparison
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.markers.UndefinedComparison'>,level:1
+2023-02-13 22:25:19,678 - root - INFO -   UndefinedEnvironmentName
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.markers.UndefinedEnvironmentName'>,level:1
+2023-02-13 22:25:19,678 - root - INFO -   InvalidRequirement
+2023-02-13 22:25:19,678 - root - INFO -    RequirementParseError
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.RequirementParseError'>,level:2
+2023-02-13 22:25:19,678 - root - INFO - Subclass: <class 'pkg_resources.extern.packaging.requirements.InvalidRequirement'>,level:1
+2023-02-13 22:25:19,678 - root - INFO -   InvalidVersion
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'packaging.version.InvalidVersion'>,level:1
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'ValueError'>,level:0
+2023-02-13 22:25:19,679 - root - INFO -  AssertionError
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'AssertionError'>,level:0
+2023-02-13 22:25:19,679 - root - INFO -  ArithmeticError
+2023-02-13 22:25:19,679 - root - INFO -   FloatingPointError
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'FloatingPointError'>,level:1
+2023-02-13 22:25:19,679 - root - INFO -   OverflowError
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'OverflowError'>,level:1
+2023-02-13 22:25:19,679 - root - INFO -   ZeroDivisionError
+2023-02-13 22:25:19,679 - root - INFO -    DivisionByZero
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'decimal.DivisionByZero'>,level:2
+2023-02-13 22:25:19,679 - root - INFO -    DivisionUndefined
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'decimal.DivisionUndefined'>,level:2
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'ZeroDivisionError'>,level:1
+2023-02-13 22:25:19,679 - root - INFO -   DecimalException
+2023-02-13 22:25:19,679 - root - INFO -    Clamped
+2023-02-13 22:25:19,679 - root - INFO - Subclass: <class 'decimal.Clamped'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    Rounded
+2023-02-13 22:25:19,680 - root - INFO -     Underflow
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2023-02-13 22:25:19,680 - root - INFO -     Overflow
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Overflow'>,level:3
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Rounded'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    Inexact
+2023-02-13 22:25:19,680 - root - INFO -     Underflow
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2023-02-13 22:25:19,680 - root - INFO -     Overflow
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Overflow'>,level:3
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Inexact'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    Subnormal
+2023-02-13 22:25:19,680 - root - INFO -     Underflow
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.Subnormal'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    DivisionByZero
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.DivisionByZero'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    FloatOperation
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.FloatOperation'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    InvalidOperation
+2023-02-13 22:25:19,680 - root - INFO -     ConversionSyntax
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.ConversionSyntax'>,level:3
+2023-02-13 22:25:19,680 - root - INFO -     DivisionImpossible
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.DivisionImpossible'>,level:3
+2023-02-13 22:25:19,680 - root - INFO -     DivisionUndefined
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.DivisionUndefined'>,level:3
+2023-02-13 22:25:19,680 - root - INFO -     InvalidContext
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.InvalidContext'>,level:3
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.InvalidOperation'>,level:2
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'decimal.DecimalException'>,level:1
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'ArithmeticError'>,level:0
+2023-02-13 22:25:19,680 - root - INFO -  SystemError
+2023-02-13 22:25:19,680 - root - INFO -   CodecRegistryError
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'encodings.CodecRegistryError'>,level:1
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'SystemError'>,level:0
+2023-02-13 22:25:19,680 - root - INFO -  ReferenceError
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'ReferenceError'>,level:0
+2023-02-13 22:25:19,680 - root - INFO -  MemoryError
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'MemoryError'>,level:0
+2023-02-13 22:25:19,680 - root - INFO -  BufferError
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'BufferError'>,level:0
+2023-02-13 22:25:19,680 - root - INFO -  Warning
+2023-02-13 22:25:19,680 - root - INFO -   UserWarning
+2023-02-13 22:25:19,680 - root - INFO -    GetPassWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'getpass.GetPassWarning'>,level:2
+2023-02-13 22:25:19,680 - root - INFO -    FormatterWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'IPython.core.formatters.FormatterWarning'>,level:2
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'UserWarning'>,level:1
+2023-02-13 22:25:19,680 - root - INFO -   EncodingWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'EncodingWarning'>,level:1
+2023-02-13 22:25:19,680 - root - INFO -   DeprecationWarning
+2023-02-13 22:25:19,680 - root - INFO -    ProvisionalWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'IPython.core.interactiveshell.ProvisionalWarning'>,level:2
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'DeprecationWarning'>,level:1
+2023-02-13 22:25:19,680 - root - INFO -   PendingDeprecationWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'PendingDeprecationWarning'>,level:1
+2023-02-13 22:25:19,680 - root - INFO -   SyntaxWarning
+2023-02-13 22:25:19,680 - root - INFO - Subclass: <class 'SyntaxWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   RuntimeWarning
+2023-02-13 22:25:19,683 - root - INFO -    ProactorSelectorThreadWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'zmq.asyncio.ProactorSelectorThreadWarning'>,level:2
+2023-02-13 22:25:19,683 - root - INFO -    UnknownTimezoneWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'dateutil.parser._parser.UnknownTimezoneWarning'>,level:2
+2023-02-13 22:25:19,683 - root - INFO -    PEP440Warning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'pkg_resources.PEP440Warning'>,level:2
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'RuntimeWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   FutureWarning
+2023-02-13 22:25:19,683 - root - INFO -    ProvisionalCompleterWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'IPython.core.completer.ProvisionalCompleterWarning'>,level:2
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'FutureWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   ImportWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'ImportWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   UnicodeWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'UnicodeWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   BytesWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'BytesWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   ResourceWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'ResourceWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   DeprecatedTzFormatWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'dateutil.tz.DeprecatedTzFormatWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   PkgResourcesDeprecationWarning
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'pkg_resources.PkgResourcesDeprecationWarning'>,level:1
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'Warning'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  _OptionError
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'warnings._OptionError'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  _Error
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'runpy._Error'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  error
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 're.error'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  Verbose
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'sre_parse.Verbose'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  Error
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'locale.Error'>,level:0
+2023-02-13 22:25:19,683 - root - INFO -  SubprocessError
+2023-02-13 22:25:19,683 - root - INFO -   CalledProcessError
+2023-02-13 22:25:19,683 - root - INFO - Subclass: <class 'subprocess.CalledProcessError'>,level:1
+2023-02-13 22:25:19,683 - root - INFO -   TimeoutExpired
+2023-02-13 22:25:19,685 - root - INFO - Subclass: <class 'subprocess.TimeoutExpired'>,level:1
+2023-02-13 22:25:19,685 - root - INFO - Subclass: <class 'subprocess.SubprocessError'>,level:0
+2023-02-13 22:25:19,685 - root - INFO -  ZMQBaseError
+2023-02-13 22:25:19,685 - root - INFO -   ZMQError
+2023-02-13 22:25:19,685 - root - INFO -    ContextTerminated
+2023-02-13 22:25:19,685 - root - INFO - Subclass: <class 'zmq.error.ContextTerminated'>,level:2
+2023-02-13 22:25:19,685 - root - INFO -    Again
+2023-02-13 22:25:19,685 - root - INFO - Subclass: <class 'zmq.error.Again'>,level:2
+2023-02-13 22:25:19,685 - root - INFO -    InterruptedSystemCall
+2023-02-13 22:25:19,685 - root - INFO - Subclass: <class 'zmq.error.InterruptedSystemCall'>,level:2
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'zmq.error.ZMQError'>,level:1
+2023-02-13 22:25:19,686 - root - INFO -   ZMQBindError
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'zmq.error.ZMQBindError'>,level:1
+2023-02-13 22:25:19,686 - root - INFO -   NotDone
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'zmq.error.NotDone'>,level:1
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'zmq.error.ZMQBaseError'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  Error
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'copy.Error'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  error
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'struct.error'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  PickleError
+2023-02-13 22:25:19,686 - root - INFO -   PicklingError
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class '_pickle.PicklingError'>,level:1
+2023-02-13 22:25:19,686 - root - INFO -   UnpicklingError
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class '_pickle.UnpicklingError'>,level:1
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class '_pickle.PickleError'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  _Stop
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'pickle._Stop'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  TokenError
+2023-02-13 22:25:19,686 - root - INFO - Subclass: <class 'tokenize.TokenError'>,level:0
+2023-02-13 22:25:19,686 - root - INFO -  StopTokenizing
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'tokenize.StopTokenizing'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  Error
+2023-02-13 22:25:19,687 - root - INFO -   CancelledError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'concurrent.futures._base.CancelledError'>,level:1
+2023-02-13 22:25:19,687 - root - INFO -   TimeoutError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'concurrent.futures._base.TimeoutError'>,level:1
+2023-02-13 22:25:19,687 - root - INFO -   InvalidStateError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'concurrent.futures._base.InvalidStateError'>,level:1
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'concurrent.futures._base.Error'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  _GiveupOnSendfile
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'socket._GiveupOnSendfile'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  Incomplete
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'binascii.Incomplete'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ClassFoundException
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'inspect.ClassFoundException'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  EndOfBlock
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'inspect.EndOfBlock'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  TimeoutError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'asyncio.exceptions.TimeoutError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  InvalidStateError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'asyncio.exceptions.InvalidStateError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  LimitOverrunError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'asyncio.exceptions.LimitOverrunError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  QueueEmpty
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'asyncio.queues.QueueEmpty'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  QueueFull
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'asyncio.queues.QueueFull'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  error
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'zlib.error'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  LZMAError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class '_lzma.LZMAError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  RegistryError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'shutil.RegistryError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  _GiveupOnFastCopy
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'shutil._GiveupOnFastCopy'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  TraitError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.traitlets.TraitError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  Empty
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class '_queue.Empty'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  Full
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'queue.Full'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ArgumentError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'ctypes.ArgumentError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  COMError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class '_ctypes.COMError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ReturnValueIgnoredError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'tornado.concurrent.ReturnValueIgnoredError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ArgumentError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'argparse.ArgumentError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ArgumentTypeError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'argparse.ArgumentTypeError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ConfigError
+2023-02-13 22:25:19,687 - root - INFO -   ConfigLoaderError
+2023-02-13 22:25:19,687 - root - INFO -    ArgumentError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.loader.ArgumentError'>,level:2
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigLoaderError'>,level:1
+2023-02-13 22:25:19,687 - root - INFO -   ConfigFileNotFound
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigFileNotFound'>,level:1
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ConfigurableError
+2023-02-13 22:25:19,687 - root - INFO -   MultipleInstanceError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.configurable.MultipleInstanceError'>,level:1
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.configurable.ConfigurableError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  ApplicationError
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'traitlets.config.application.ApplicationError'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  InvalidPortNumber
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'jupyter_client.channels.InvalidPortNumber'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  NoIPAddresses
+2023-02-13 22:25:19,687 - root - INFO - Subclass: <class 'jupyter_client.localinterfaces.NoIPAddresses'>,level:0
+2023-02-13 22:25:19,687 - root - INFO -  Error
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class '_csv.Error'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  BadZipFile
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'zipfile.BadZipFile'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  LargeZipFile
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'zipfile.LargeZipFile'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  Error
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'uu.Error'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  MessageError
+2023-02-13 22:25:19,691 - root - INFO -   MessageParseError
+2023-02-13 22:25:19,691 - root - INFO -    HeaderParseError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.HeaderParseError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    BoundaryError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.BoundaryError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.MessageParseError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   MultipartConversionError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.MultipartConversionError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   CharsetError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.CharsetError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'email.errors.MessageError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  DuplicateKernelError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'jupyter_client.multikernelmanager.DuplicateKernelError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  ErrorDuringImport
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'pydoc.ErrorDuringImport'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  NotOneValueFound
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'executing.executing.NotOneValueFound'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  CannotEval
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'pure_eval.utils.CannotEval'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  OptionError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'pygments.util.OptionError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  BdbQuit
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'bdb.BdbQuit'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  Restart
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'pdb.Restart'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  FindCmdError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.utils.process.FindCmdError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  HomeDirError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.utils.path.HomeDirError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  ProfileDirError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.profiledir.ProfileDirError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  IPythonCoreError
+2023-02-13 22:25:19,691 - root - INFO -   TryNext
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.error.TryNext'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   UsageError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.error.UsageError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   StdinNotImplementedError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.error.StdinNotImplementedError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.error.IPythonCoreError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  InputRejected
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.error.InputRejected'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  GetoptError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'getopt.GetoptError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  ErrorToken
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'pygments.filters.ErrorToken'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  PrefilterError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.prefilter.PrefilterError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  AliasError
+2023-02-13 22:25:19,691 - root - INFO -   InvalidAliasError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.alias.InvalidAliasError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.alias.AliasError'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  Error
+2023-02-13 22:25:19,691 - root - INFO -   InterfaceError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.InterfaceError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   DatabaseError
+2023-02-13 22:25:19,691 - root - INFO -    InternalError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.InternalError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    OperationalError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.OperationalError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    ProgrammingError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.ProgrammingError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    IntegrityError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.IntegrityError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    DataError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.DataError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO -    NotSupportedError
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.NotSupportedError'>,level:2
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.DatabaseError'>,level:1
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.Error'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  Warning
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'sqlite3.Warning'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  SpaceInInput
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'IPython.core.interactiveshell.SpaceInInput'>,level:0
+2023-02-13 22:25:19,691 - root - INFO -  DOMException
+2023-02-13 22:25:19,691 - root - INFO -   IndexSizeErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.IndexSizeErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   DomstringSizeErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.DomstringSizeErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   HierarchyRequestErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.HierarchyRequestErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   WrongDocumentErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.WrongDocumentErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   InvalidCharacterErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.InvalidCharacterErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   NoDataAllowedErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.NoDataAllowedErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   NoModificationAllowedErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.NoModificationAllowedErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   NotFoundErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.NotFoundErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   NotSupportedErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.NotSupportedErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   InuseAttributeErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.InuseAttributeErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   InvalidStateErr
+2023-02-13 22:25:19,691 - root - INFO - Subclass: <class 'xml.dom.InvalidStateErr'>,level:1
+2023-02-13 22:25:19,691 - root - INFO -   SyntaxErr
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.SyntaxErr'>,level:1
+2023-02-13 22:25:19,697 - root - INFO -   InvalidModificationErr
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.InvalidModificationErr'>,level:1
+2023-02-13 22:25:19,697 - root - INFO -   NamespaceErr
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.NamespaceErr'>,level:1
+2023-02-13 22:25:19,697 - root - INFO -   InvalidAccessErr
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.InvalidAccessErr'>,level:1
+2023-02-13 22:25:19,697 - root - INFO -   ValidationErr
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.ValidationErr'>,level:1
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'xml.dom.DOMException'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  ValidationError
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'prompt_toolkit.validation.ValidationError'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  EditReadOnlyBuffer
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'prompt_toolkit.buffer.EditReadOnlyBuffer'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  _Retry
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'prompt_toolkit.buffer._Retry'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  InvalidLayoutError
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'prompt_toolkit.layout.layout.InvalidLayoutError'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  HeightIsUnknownError
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'prompt_toolkit.renderer.HeightIsUnknownError'>,level:0
+2023-02-13 22:25:19,697 - root - INFO -  GuardRejection
+2023-02-13 22:25:19,697 - root - INFO - Subclass: <class 'IPython.core.guarded_eval.GuardRejection'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  ParserSyntaxError
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'parso.parser.ParserSyntaxError'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  InternalParseError
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'parso.parser.InternalParseError'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  _PositionUpdatingFinished
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'parso.python.diff._PositionUpdatingFinished'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  SimpleGetItemNotFound
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.inference.helpers.SimpleGetItemNotFound'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  UncaughtAttributeError
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.inference.utils.UncaughtAttributeError'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  HasNoContext
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.inference.base_value.HasNoContext'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  ParamIssue
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.inference.arguments.ParamIssue'>,level:0
+2023-02-13 22:25:19,698 - root - INFO -  _JediError
+2023-02-13 22:25:19,698 - root - INFO -   InternalError
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.api.exceptions.InternalError'>,level:1
+2023-02-13 22:25:19,698 - root - INFO -   WrongVersion
+2023-02-13 22:25:19,698 - root - INFO - Subclass: <class 'jedi.api.exceptions.WrongVersion'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   RefactoringError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'jedi.api.exceptions.RefactoringError'>,level:1
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'jedi.api.exceptions._JediError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  OnErrorLeaf
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'jedi.api.helpers.OnErrorLeaf'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  InvalidPythonEnvironment
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'jedi.api.environment.InvalidPythonEnvironment'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  HTTPException
+2023-02-13 22:25:19,700 - root - INFO -   NotConnected
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.NotConnected'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   InvalidURL
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.InvalidURL'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   UnknownProtocol
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.UnknownProtocol'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   UnknownTransferEncoding
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.UnknownTransferEncoding'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   UnimplementedFileMode
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.UnimplementedFileMode'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   IncompleteRead
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.IncompleteRead'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   ImproperConnectionState
+2023-02-13 22:25:19,700 - root - INFO -    CannotSendRequest
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.CannotSendRequest'>,level:2
+2023-02-13 22:25:19,700 - root - INFO -    CannotSendHeader
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.CannotSendHeader'>,level:2
+2023-02-13 22:25:19,700 - root - INFO -    ResponseNotReady
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.ResponseNotReady'>,level:2
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.ImproperConnectionState'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   BadStatusLine
+2023-02-13 22:25:19,700 - root - INFO -    RemoteDisconnected
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.RemoteDisconnected'>,level:2
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.BadStatusLine'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   LineTooLong
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.LineTooLong'>,level:1
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'http.client.HTTPException'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  InteractivelyDefined
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'IPython.core.magics.code.InteractivelyDefined'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  KillEmbedded
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'IPython.terminal.embed.KillEmbedded'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  Error
+2023-02-13 22:25:19,700 - root - INFO -   NoSuchProcess
+2023-02-13 22:25:19,700 - root - INFO -    ZombieProcess
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'psutil.ZombieProcess'>,level:2
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'psutil.NoSuchProcess'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   AccessDenied
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'psutil.AccessDenied'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   TimeoutExpired
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'psutil.TimeoutExpired'>,level:1
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'psutil.Error'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  Error
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class '_psutil_windows.Error'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  TimeoutExpired
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class '_psutil_windows.TimeoutExpired'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  TimeoutAbandoned
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class '_psutil_windows.TimeoutAbandoned'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  KeyReuseError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.KeyReuseError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  UnknownKeyError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.UnknownKeyError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  LeakedCallbackError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.LeakedCallbackError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  BadYieldError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.BadYieldError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  ReturnValueIgnoredError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.ReturnValueIgnoredError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  Return
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.gen.Return'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  QueueEmpty
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.queues.QueueEmpty'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  QueueFull
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'tornado.queues.QueueFull'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  DebuggerInitializationError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class '_pydev_bundle._pydev_saved_modules.DebuggerInitializationError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  ExpatError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'xml.parsers.expat.ExpatError'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  Error
+2023-02-13 22:25:19,700 - root - INFO -   ProtocolError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'xmlrpc.client.ProtocolError'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   ResponseError
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'xmlrpc.client.ResponseError'>,level:1
+2023-02-13 22:25:19,700 - root - INFO -   Fault
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'xmlrpc.client.Fault'>,level:1
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'xmlrpc.client.Error'>,level:0
+2023-02-13 22:25:19,700 - root - INFO -  error
+2023-02-13 22:25:19,700 - root - INFO - Subclass: <class 'pywintypes.error'>,level:0
+2023-02-13 22:25:19,706 - root - INFO -  com_error
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pywintypes.com_error'>,level:0
+2023-02-13 22:25:19,706 - root - INFO -  internal_error
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pythoncom.internal_error'>,level:0
+2023-02-13 22:25:19,706 - root - INFO -  ParseBaseException
+2023-02-13 22:25:19,706 - root - INFO -   ParseException
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pkg_resources._vendor.pyparsing.exceptions.ParseException'>,level:1
+2023-02-13 22:25:19,706 - root - INFO -   ParseFatalException
+2023-02-13 22:25:19,706 - root - INFO -    ParseSyntaxException
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pkg_resources._vendor.pyparsing.exceptions.ParseSyntaxException'>,level:2
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pkg_resources._vendor.pyparsing.exceptions.ParseFatalException'>,level:1
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pkg_resources._vendor.pyparsing.exceptions.ParseBaseException'>,level:0
+2023-02-13 22:25:19,706 - root - INFO -  RecursiveGrammarException
+2023-02-13 22:25:19,706 - root - INFO - Subclass: <class 'pkg_resources._vendor.pyparsing.exceptions.RecursiveGrammarException'>,level:0
+2023-02-13 22:25:19,706 - root - INFO -  ResolutionError
+2023-02-13 22:25:19,708 - root - INFO -   VersionConflict
+2023-02-13 22:25:19,708 - root - INFO -    ContextualVersionConflict
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class 'pkg_resources.ContextualVersionConflict'>,level:2
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class 'pkg_resources.VersionConflict'>,level:1
+2023-02-13 22:25:19,708 - root - INFO -   DistributionNotFound
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class 'pkg_resources.DistributionNotFound'>,level:1
+2023-02-13 22:25:19,708 - root - INFO -   UnknownExtra
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class 'pkg_resources.UnknownExtra'>,level:1
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class 'pkg_resources.ResolutionError'>,level:0
+2023-02-13 22:25:19,708 - root - INFO -  _Error
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_runpy._Error'>,level:0
+2023-02-13 22:25:19,708 - root - INFO -  UnableToResolveVariableException
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_resolver.UnableToResolveVariableException'>,level:0
+2023-02-13 22:25:19,708 - root - INFO -  InvalidTypeInArgsException
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class '_pydev_bundle.pydev_monkey.InvalidTypeInArgsException'>,level:0
+2023-02-13 22:25:19,708 - root - INFO -  TransactionLimitExceeded
+2023-02-13 22:25:19,708 - root - INFO - Subclass: <class '__main__.TransactionLimitExceeded'>,level:0
+2023-02-13 22:38:59,678 - root - INFO - This is start of Question 3
+2023-02-13 22:38:59,678 - root - INFO - Try block executed
+2023-02-13 22:39:07,413 - root - INFO - This is start of Question 3
+2023-02-13 22:39:07,413 - root - ERROR - Exception occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_3836\1729969062.py", line 5, in <module>
+    print(a/0)
+ZeroDivisionError: division by zero
+2023-02-13 22:40:16,736 - root - INFO - This is start of Question 3
+2023-02-13 22:40:16,736 - root - ERROR - Exception occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_3836\3816145219.py", line 5, in <module>
+    print(a/0)
+ZeroDivisionError: division by zero
+2023-02-13 22:40:16,736 - root - INFO - Example 1 of Question 3 Completed
+2023-02-13 22:43:48,403 - root - INFO - This is start of Example 2 Overflow Error of Question 3
+2023-02-13 22:56:19,776 - root - INFO - Example 2 Overflow error of Question 3 Started
+2023-02-13 22:56:19,783 - root - INFO - Error Occured and Handled : math range error
+2023-02-13 23:24:43,618 - root - INFO - This is start of Key Error Example
+2023-02-13 23:24:43,619 - root - ERROR - Error Occured and Handled : 'key3'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\1462422585.py", line 5, in <module>
+    d['key3']
+KeyError: 'key3'
+2023-02-13 23:24:43,620 - root - INFO - This is end of Key Error Example
+2023-02-13 23:24:56,388 - root - INFO - This is start of Key Error Example
+2023-02-13 23:24:56,388 - root - ERROR - Error Occured and Handled Key Error : 'key3'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\1976052253.py", line 5, in <module>
+    d['key3']
+KeyError: 'key3'
+2023-02-13 23:24:56,391 - root - INFO - This is end of Key Error Example
+2023-02-13 23:25:04,011 - root - INFO - This is start of Key Error Example
+2023-02-13 23:25:04,011 - root - ERROR - Error Occured and Handled Key Error : 'key3'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\3771877001.py", line 5, in <module>
+    d['key3']
+KeyError: 'key3'
+2023-02-13 23:25:04,011 - root - INFO - This is end of Key Error Example
+2023-02-13 23:27:12,078 - root - INFO - This is start of Index error example
+2023-02-13 23:27:12,079 - root - ERROR - Index error occured and Handled : list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\2041739806.py", line 5, in <module>
+    l[21]
+IndexError: list index out of range
+2023-02-13 23:27:12,079 - root - INFO - Index Error Example complete
+2023-02-13 23:33:30,456 - root - INFO - This is start of example for ModuleNotFoundError
+2023-02-13 23:33:30,461 - root - ERROR - ImportError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\3092941115.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2023-02-13 23:34:17,074 - root - INFO - This is start of example for ImportError
+2023-02-13 23:34:17,078 - root - ERROR - ImportError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\2263227140.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2023-02-13 23:34:44,014 - root - INFO - This is start of example for ImportError
+2023-02-13 23:34:44,019 - root - ERROR - ImportError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\1546792386.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2023-02-13 23:34:44,020 - root - INFO - ImportError Example Complete
+2023-02-13 23:35:43,373 - root - INFO - This is start of example for ModuleNotFoundError
+2023-02-13 23:35:43,382 - root - ERROR - ModuleNotFoundError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\568442035.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2023-02-13 23:35:43,382 - root - INFO - ModuleNotFound Example Complete
+2023-02-13 23:49:43,431 - root - INFO - This is start of divide function
+2023-02-13 23:49:43,431 - root - INFO - Try Block executed
+2023-02-13 23:49:43,435 - root - INFO - Else Block Executed
+2023-02-13 23:49:43,435 - root - INFO - This is end of divide function
+2023-02-13 23:49:43,435 - root - INFO - This is start of divide function
+2023-02-13 23:49:43,435 - root - ERROR - Zero Division Error occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+2023-02-13 23:49:43,435 - root - INFO - This is end of divide function
+2023-02-13 23:49:43,435 - root - ERROR - Error occured and Handled : Cannot divide by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\3172934986.py", line 3, in <module>
+    print(divide(34,0))
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 9, in divide
+    raise ValueError("Cannot divide by zero") from e
+ValueError: Cannot divide by zero
+2023-02-13 23:52:16,218 - root - INFO - This is start of divide function
+2023-02-13 23:52:16,218 - root - INFO - Try Block executed
+2023-02-13 23:52:16,218 - root - INFO - Else Block Executed
+2023-02-13 23:52:16,218 - root - INFO - This is end of divide function
+2023-02-13 23:52:54,902 - root - INFO - This is start of divide function
+2023-02-13 23:52:54,902 - root - ERROR - Zero Division Error occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+2023-02-13 23:52:54,902 - root - INFO - This is end of divide function
+2023-02-13 23:52:54,902 - root - ERROR - Error occured and Handled : Cannot divide by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\2464696918.py", line 3, in <module>
+    print(divide(43,0))
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 9, in divide
+    raise ValueError("Cannot divide by zero") from e
+ValueError: Cannot divide by zero
+2023-02-13 23:53:26,700 - root - INFO - This is start of divide function
+2023-02-13 23:53:26,700 - root - ERROR - Zero Division Error occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+2023-02-13 23:53:26,700 - root - INFO - This is end of divide function
+2023-02-13 23:53:26,700 - root - ERROR - Error occured and Handled : Cannot divide by zero
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\1157112315.py", line 3, in <module>
+    print(divide(43,0))
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 9, in divide
+    raise ValueError("Cannot divide by zero") from e
+ValueError: Cannot divide by zero
+2023-02-13 23:53:36,699 - root - INFO - This is start of divide function
+2023-02-13 23:53:36,699 - root - ERROR - Type Error Occured and Handled : unsupported operand type(s) for /: 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2023-02-13 23:53:36,699 - root - INFO - This is end of divide function
+2023-02-13 23:53:36,699 - root - ERROR - Error occured and Handled : Both arguments must be numbers
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 5, in divide
+    result = a / b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\158202597.py", line 3, in <module>
+    print(divide(43,'example'))
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_4508\396015216.py", line 12, in divide
+    raise ValueError("Both arguments must be numbers") from e
+ValueError: Both arguments must be numbers
