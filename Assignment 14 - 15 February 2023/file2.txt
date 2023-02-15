@@ -1,0 +1,136 @@
+2023-02-13 11:49:40,624 - root - INFO - This is Question 1 , Example 1
+2023-02-13 11:50:12,765 - root - INFO - This is Question 2 start
+2023-02-13 11:54:00,804 - root - INFO - This is Start of Question 3
+2023-02-13 11:54:00,805 - root - ERROR - Except block from Question 3 executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3002810753.py", line 5, in <module>
+    with open('sample.txt','r') as f:
+  File "e:\PWSkills Assignments\venv\lib\site-packages\IPython\core\interactiveshell.py", line 282, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'sample.txt'
+2023-02-13 11:54:00,806 - root - INFO - Finally Block from Question 3 executed
+2023-02-13 11:55:48,061 - root - INFO - This is Start of function divide
+2023-02-13 11:55:48,061 - root - INFO - Try Block executed
+2023-02-13 11:55:48,061 - root - INFO - Else Block executed
+2023-02-13 11:56:07,250 - root - INFO - This is Start of function divide
+2023-02-13 11:56:07,250 - root - INFO - Try Block executed
+2023-02-13 11:56:07,251 - root - INFO - Else Block executed
+2023-02-13 11:56:11,386 - root - INFO - This is Start of function divide
+2023-02-13 11:56:11,386 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3619439627.py", line 9, in divide
+    result = a/b
+ZeroDivisionError: division by zero
+2023-02-13 11:56:32,647 - root - INFO - This is Start of function divide
+2023-02-13 11:56:32,647 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3619439627.py", line 9, in divide
+    result = a/b
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2023-02-13 11:58:11,454 - root - INFO - Explaining Finally block code of Question 3
+2023-02-13 11:58:11,454 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2074260654.py", line 6, in <module>
+    c = a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2023-02-13 11:58:11,454 - root - INFO - Finally Block executed
+2023-02-13 11:59:39,940 - root - INFO - Explaining Finally block code of Question 3 Finally example 2
+2023-02-13 11:59:39,941 - root - INFO - Try Block executed
+2023-02-13 11:59:39,941 - root - INFO - Finally block executed
+2023-02-13 12:01:39,797 - root - INFO - This is start of mob_num function from Question 3 Raise explaination
+2023-02-13 12:01:42,591 - root - ERROR - Exception occured invalid mobile number
+NoneType: None
+2023-02-13 12:01:55,913 - root - INFO - This is start of mob_num function from Question 3 Raise explaination
+2023-02-13 12:02:12,914 - root - ERROR - Exception occured invalid mobile number
+NoneType: None
+2023-02-13 12:02:16,522 - root - INFO - This is start of mob_num function from Question 3 Raise explaination
+2023-02-13 12:05:49,280 - root - INFO - Question 5 , case 1 started
+2023-02-13 12:05:49,281 - root - INFO - No Error occured
+2023-02-13 12:06:35,733 - root - INFO - Question 5 , case 2 started
+2023-02-13 12:06:35,733 - root - ERROR - Percentage not in range
+2023-02-13 12:07:54,039 - root - INFO - Question 5 , case 3 started
+2023-02-13 12:07:54,040 - root - ERROR - Percentage not in range
+2023-02-13 12:15:56,066 - root - INFO - Test Case 1 , Question 6
+2023-02-13 12:15:56,066 - root - INFO - Validate pan function started
+2023-02-13 12:15:56,068 - root - INFO - PAN Card number is Valid
+2023-02-13 12:15:56,068 - root - INFO - Try Block executed
+2023-02-13 12:16:40,789 - root - INFO - Test Case 2 , Question 6
+2023-02-13 12:16:40,789 - root - INFO - Validate pan function started
+2023-02-13 12:16:40,789 - root - ERROR - Surname error , Surname cannot have numbers
+2023-02-13 12:16:40,790 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2302266496.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 9, in validate_pan_number
+    raise validatePAN('Surname cannot consist of numbers')
+validatePAN: Surname cannot consist of numbers
+2023-02-13 12:17:31,369 - root - INFO - Test Case 3 , Question 6
+2023-02-13 12:17:31,369 - root - INFO - Validate pan function started
+2023-02-13 12:17:31,369 - root - ERROR - PAN Number length is not equal to 10
+2023-02-13 12:17:31,369 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3688708175.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 14, in validate_pan_number
+    raise validatePAN('Length of PAN Card should be 10 digits')
+validatePAN: Length of PAN Card should be 10 digits
+2023-02-13 12:18:54,208 - root - INFO - Test Case 4 , Question 6
+2023-02-13 12:18:54,209 - root - INFO - Validate pan function started
+2023-02-13 12:18:54,209 - root - ERROR - First 3 letters of PAN Number are not characters
+2023-02-13 12:18:54,209 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\868844381.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 19, in validate_pan_number
+    raise validatePAN('First Three characters of Pan Card Must be Letters')
+validatePAN: First Three characters of Pan Card Must be Letters
+2023-02-13 12:19:31,446 - root - INFO - Test Case 4 , Question 6
+2023-02-13 12:19:31,446 - root - INFO - Validate pan function started
+2023-02-13 12:19:31,446 - root - ERROR - PAN Category invalid
+2023-02-13 12:19:31,447 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3542145984.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 24, in validate_pan_number
+    raise validatePAN("4th Letter must be any of ['P','C','H', 'F', 'A', 'T', 'B', 'L', 'J', 'G']")
+validatePAN: 4th Letter must be any of ['P','C','H', 'F', 'A', 'T', 'B', 'L', 'J', 'G']
+2023-02-13 12:20:02,532 - root - INFO - Test Case 5 , Question 6
+2023-02-13 12:20:02,532 - root - INFO - Validate pan function started
+2023-02-13 12:20:02,532 - root - ERROR - 1st Letter of Surname and 5th Letter of PAN not matching
+2023-02-13 12:20:02,532 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2808962196.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 30, in validate_pan_number
+    raise validatePAN("First Digit of surname not matching with 5th Letter of pan")
+validatePAN: First Digit of surname not matching with 5th Letter of pan
+2023-02-13 12:20:54,251 - root - INFO - Test Case 6 , Question 6
+2023-02-13 12:20:54,251 - root - INFO - Validate pan function started
+2023-02-13 12:20:54,251 - root - ERROR - Characters 6 to 9 not numeric
+2023-02-13 12:20:54,251 - root - ERROR - Except block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\3642342128.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 35, in validate_pan_number
+    raise validatePAN("Characters from 6 to 9 should be numbers")
+validatePAN: Characters from 6 to 9 should be numbers
+2023-02-13 12:22:03,560 - root - INFO - Test Case 7 , Question 6
+2023-02-13 12:22:03,560 - root - INFO - Validate pan function started
+2023-02-13 12:22:03,560 - root - ERROR - Last character in not an alphabet
+2023-02-13 12:22:03,561 - root - ERROR - Except Block executed
+Traceback (most recent call last):
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\1685226048.py", line 6, in <module>
+    validate_pan_number(surname,pan)
+  File "C:\Users\Utkarsh Gaikwad\AppData\Local\Temp\ipykernel_19784\2058743615.py", line 40, in validate_pan_number
+    raise validatePAN("Last Character of PAN must be a Alphabet")
+validatePAN: Last Character of PAN must be a Alphabet
+2023-02-13 12:22:45,688 - root - INFO - Test Case 8 , Question 6
+2023-02-13 12:22:45,688 - root - INFO - Validate pan function started
+2023-02-13 12:22:45,689 - root - INFO - PAN Card number is Valid
+2023-02-13 12:22:45,689 - root - INFO - Try Block executed
+2023-02-13 14:50:10,132 - root - INFO - Question 5 , case 1 started
+2023-02-13 14:50:10,141 - root - INFO - No Error occured
+2023-02-13 14:52:57,014 - root - INFO - Question 5 , case 2 started
+2023-02-13 14:52:57,018 - root - ERROR - Percentage not in range
+2023-02-13 14:53:25,190 - root - INFO - Question 5 , case 3 started
+2023-02-13 14:53:25,190 - root - ERROR - Percentage not in range
