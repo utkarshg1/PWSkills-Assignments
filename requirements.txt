@@ -11,3 +11,4 @@ SQLalchemy == 1.3.9
 ipython-sql
 mysql-connector-python
 pymongo
+requests
