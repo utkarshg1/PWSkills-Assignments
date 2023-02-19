@@ -12,3 +12,4 @@ ipython-sql
 mysql-connector-python
 pymongo
 requests
+Flask
