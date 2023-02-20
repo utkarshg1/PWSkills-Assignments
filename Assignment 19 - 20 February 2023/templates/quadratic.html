@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quadratic Equation Solver</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #444444;
+		}
+
+		form {
+			margin: 50px auto;
+			padding: 20px;
+			background-color: #ffffff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			max-width: 500px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+		label {
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #444444;
+		}
+
+		input[type="number"] {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			font-size: 16px;
+			color: #444444;
+		}
+
+		.result {
+			margin-top: 20px;
+			font-size: 20px;
+			font-weight: bold;
+			color: #444444;
+		}
+
+		.error {
+			color: #ff0000;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Quadratic Equation Solver</h1>
+	<form method="post">
+		<label>Enter the coefficients of the quadratic equation:</label>
+		<input type="number" name="a" placeholder="a" required>
+		<input type="number" name="b" placeholder="b" required>
+		<input type="number" name="c" placeholder="c" required>
+		<input type="submit" value="Solve">
+		{% if result %}
+			<p class="result">{{ result }}</p>
+		{% endif %}
+		{% if error %}
+			<p class="error">{{ error }}</p>
+		{% endif %}
+	</form>
+</body>
+</html>
