@@ -13,3 +13,4 @@ mysql-connector-python
 pymongo
 requests
 Flask
+beautifulsoup4
