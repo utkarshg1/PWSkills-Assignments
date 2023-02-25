@@ -16,3 +16,4 @@ Flask
 beautifulsoup4
 webdriver-manager
 selenium
+openpyxl
