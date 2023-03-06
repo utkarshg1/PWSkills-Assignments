@@ -18,3 +18,4 @@ webdriver-manager
 selenium
 openpyxl
 yfinance
+bokeh

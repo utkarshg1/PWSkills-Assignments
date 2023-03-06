@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src={{ cdn_js | safe }}></script>
+  <title>Embedding a Bokeh Server With {{ framework }}</title>
+</head>
+
+<body>
+  <div>
+    <h1>Bokeh Flask App - Utkarsh Gaikwad</h1>
+    <h3>This is a candlestick plot for IBM Stock</h3>
+  </div>
+  {{ script|safe }}
+  {{ div | safe}}
+</body>
+</html>
