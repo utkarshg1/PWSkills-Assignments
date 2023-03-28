@@ -19,3 +19,4 @@ selenium
 openpyxl
 yfinance
 bokeh
+catboost
