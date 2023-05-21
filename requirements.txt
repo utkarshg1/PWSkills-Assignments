@@ -21,3 +21,4 @@ yfinance
 bokeh
 catboost
 lime
+pmdarima
