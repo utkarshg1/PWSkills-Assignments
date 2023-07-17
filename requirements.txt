@@ -22,3 +22,5 @@ bokeh
 catboost
 lime
 pmdarima
+tensorflow
+keras
